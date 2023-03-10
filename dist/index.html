@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Portafolio</title>
+</head>
+<body class="bg-[url('./img/fondo2.jpg')] bg-cover text-zinc-100 dark:bg-blue-900 dark:text-zinc-100 font-roboto ]">
+<header>
+    <!-- Navegación -->
+    <nav class="flex justify-between py-10 m-auto px-10 text-lg font-medium tracking-widest md: items-center">
+        <!-- Botón modo
+        <button id="darkButton">
+            <i class="bi bi-brightness-high dark:text-zinc-100"></i>
+        </button>
+        -->
+        <div id="menu"
+             class="bg-white dark:bg-slate-800 p-7 h-[380px] w-[320px] md:flex flex-col items-start justify-around rounded-lg text-dark dark:text-white md:flex-row md:w-full md:py-0 md:h-[50px]
+             md:bg-inherit md:dark:bg-primary hidden">
+
+
+            <ul class="flex h-5/6 flex-col justify-around md:flex-row md:justify-end w-full">
+
+                <li class="md:px-5  group text-cyan-100 transition duration-300">Acerca de mí<a href="">
+                    <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-cyan-100"></span>
+                </a></li>
+                <li class="md:px-5  group text-cyan-100 transition duration-300">Experiencia<a href="">
+                    <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-cyan-100"></span>
+                </a></li>
+                <li class="md:px-5  group text-cyan-100 transition duration-300">Proyectos<a href="">
+                    <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-cyan-100"></span>
+                </a></li>
+                <li class="md:px-5  group text-cyan-100 transition duration-300">Publicaciones<a href="">
+                    <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-cyan-100"></span>
+                </a></li>
+                <li class="md:px-5  group text-cyan-100 transition duration-300">Constancias<a href="">
+                    <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-cyan-100"></span>
+                </a></li>
+                <li class="md:px-5  group text-cyan-100 transition duration-300">Contáctame<a href="">
+                    <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-cyan-100"></span>
+                </a></li>
+
+            </ul>
+        </div>
+        <!--Botón menú hamburguesa -->
+        <button id="menu-button" class="absolute top-10 right-12 md:hidden">
+            <span class="br-1 block bg-black dark:bg-white my-2 rounded-md h-[3px] w-[28px]"></span>
+            <span class="br-2 block bg-black dark:bg-white my-2 rounded-md h-[3px] w-[28px]"></span>
+            <span class="br-3 block bg-black dark:bg-white my-2 rounded-md h-[3px] w-[28px]"></span>
+        </button>
+    </nav>
+    <!-- Fin del menú -->
+</header>
+<main>
+    <section class=" my-0 flex flex-col lg:flex-row lg:h-[850px]">
+
+        <div class="my-10 w-3/5 ">
+            <div
+                    class=" float-left w-[300px] h-[320px] m-auto bg-[url('./img/profile.png')] lg:bg-[url('./img/profile.png)] bg-cover rounded-lg lg:w-[100%] lg:h-[80%] lg:bg-center lg:bg-no-repeat lg:bg-[length:450px_576px]"
+            ></div>
+        </div>
+
+        <div class="p-10 lg:w-[120%] lg:h-[500px] lg:self-center">
+            <h1
+                    class="text-slate-200 dark:text-sky-300 text-2xl font-bold tracking-widest leading-10"
+            >
+                Hola, soy
+            </h1>
+            <p class="py-2 text-4xl font-bold text-yellow-50 dark:text-slate-300">
+                Elton Senftleben
+            </p>
+            <p class="text-3xl font-bold text-green-300 dark:text-slate-600">
+                Desarrollador Aplicaciones Android.
+            </p>
+            <p class="mt-5 text-lg ">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam deleniti excepturi
+                expedita, id laboriosam perferendis quae quidem repudiandae suscipit. Ducimus et explicabo laudantium
+                nostrum quasi repudiandae, sequi sunt vero?
+            </p>
+            <!-- REDES SOCIALES -->
+            <div class="py-6">
+                <a href="" class="pr-2 text-2xl hover:text-sky-600"
+                ><i class="bi bi-twitter px-2"></i
+                ></a>
+                <a href="" class="pr-2 text-2xl hover:text-sky-600"
+                ><i class="bi bi-instagram px-2"></i
+                ></a>
+                <a href="" class="pr-2 text-2xl hover:text-sky-600"
+                ><i class="bi bi-linkedin px-2"></i
+                ></a>
+                <a href="" class="pr-2 text-2xl hover:text-sky-600"
+                ><i class="bi bi-github px-2"></i
+                ></a>
+            </div>
+            <div>
+                <button
+                        class="border-2 rounded border-sky-500 p-4 w-[250px] text-lg tracking-widest hover:bg-sky-500 hover:dark:text-slate-900 ease-out duration-300"
+                >
+                    Contáctame
+                </button>
+            </div>
+        </div>
+        <!-- Contenedor para la Imagen -->
+
+    </section>
+</main>
+</body>
+</html>
